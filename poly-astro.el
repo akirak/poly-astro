@@ -63,6 +63,7 @@
   :tail-mode 'host
   :body-indent-offset 2)
 
+;;;###autoload (autoload 'poly-astro "poly-astro")
 (define-polymode poly-astro
   :hostmode 'poly-astro-hostmode
   :innermodes '(poly-astro-fm-innermode
